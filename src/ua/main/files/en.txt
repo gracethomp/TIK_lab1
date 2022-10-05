@@ -1,9 +1,23 @@
-Ukrainian cuisine with its various tastes and cooking technologies is an important part of the country`s
-cultural heritage. It reflects peculiarities of the country`s regions and culinary heritage of different ethnic
-and national communities of Ukraine.
+Java is a programming language and computing platform that was first released by Sun Microsystems in 1995. The technology has evolved from a modest development to a tool that plays a significant role in today's digital world, providing a solid platform for many services and applications. Innovative products and digital services designed for the future will also be based on Java.
 
-Borshch (a beet soup) is the most famous Ukrainian dish. Every Ukrainian family has its own borshch recipe.
-The most spread recipe includes cabbage, carrots, onions, potatoes, tomatoes and meat, although borshch can be vegetarian.
+Although most modern Java applications combine a Java environment and application, there are still many applications and even some websites that will not work unless a desktop version of Java is installed on the computer.
 
-Apart of the restaurants and cafes it is worth visiting local markets for fruits, vegetables,
-herbal teas and home-made cottage cheeses.
+Yes, Java can be downloaded for free for personal use.
+Java is also free for development: developers can find all development kits and other useful tools on the web page. The latest Java updates contain important improvements to improve the performance, stability, and security of Java applications that run on your computer. Installing these updates ensures that Java applications will continue to work with the latest version. As a result of downloading Java software from java.com, users receive Java Runtime Environment (JRE) version 8.
+
+The JRE consists of the Java Virtual Machine (JVM), the Java platform base classes, and the Java platform support libraries. JRE is the runtime environment for Java. This is all that is needed to run Java WebStart applications from a supported web browser. However, development tools are not included: they are provided as part of the Java Development Kit (JDK).
+What is Java Plugin Software?
+The Java plug-in software is a component of the Java Runtime Environment (JRE). The JRE allows some applications written in the Java programming language to run on various browsers. The Java Plugin is not a standalone program and cannot be installed separately.
+I've come across the terms "Java Virtual Machine" and JVM. Is this Java software?
+The Java Virtual Machine is only one aspect of the Java software that is involved in running an application. The Java Virtual Machine, as part of the JRE, is built into the Java downloadable software; it supports running Java applications.
+terminology. Java is a general term used to refer to the software and its components, including the Java Runtime Environment (JRE) and Java Virtual Machine (JVM) components, as well as the Plugin. If the error messages contain the terms JRE, JVM, and plug-in, we save them.
+
+Versions: The version refers to the Java family and update number. Examples: On the website or in Windows programs, the version is listed as Java 8 Update 25. Earlier versions may also have the designation 1.7.0_65, which stands for Java 7 (Update 65).
+The help topic contains information about the following versions of Java. Lambda expressions were a powerful addition to the Java language starting in Java 8. This is a series of tutorials aimed at introducing the concept of lambdas while incrementally teaching how to use them in practice as you progress through each tutorial.
+
+The tutorials in this series are listed below. We recommend starting with the first and working your way through, but you are free to start wherever you'd like! In 2014, Java SE 8 saw the introduction of the concept of lambda expressions. If you remember the days before Java SE 8 was released, then you probably remember the anonymous classes concept. And maybe you have heard that lambda expressions are another, simpler way of writing instances of anonymous classes, in some precise cases.
+
+If you do not remember those days, then you may have heard or read about anonymous classes, and are probably afraid of this obscure syntax.
+
+Well, the good news is: you do not need to go through anonymous classes to understand how to write a lambda expression. Moreover, in many cases, thanks to the addition of lambdas to the Java language, you do not need anonymous classes anymore.
+Everything has a type in the Java language, and this type is known at compile time. So it is always possible to find the type of a lambda expression. It may be the type of a variable, of a field, of a method parameter, or the returned type of a method.

@@ -1,20 +1,21 @@
 package ua.main;
 
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class InteractiveMenu {
 
-    private static String choiceFileConsole() {
+    private static String choiceFileConsole() throws FileNotFoundException {
         System.out.println("File (1) or console (2)? (write number)");
         Scanner sc = new Scanner(System.in);
         String string;
         while (true) {
             String number = sc.nextLine();
-            if(number.equals("1")) {
+            if(number.equals("2")) {
                 System.out.print("Enter your string: ");
                 string = sc.nextLine();
                 break;
-            } else if(number.equals("2")) {
+            } else if(number.equals("1")) {
                 System.out.println("Ukrainian(1), English(2) or German(3)?");
                 while (true) {
                     String variant = sc.nextLine();
@@ -33,7 +34,8 @@ public class InteractiveMenu {
                     else
                         System.out.println("Try again");
                 }
-
+                ManagerFiles managerFiles = new ManagerFiles();
+                string = managerFiles.getFileData(string);
                 break;
             } else
                 System.out.println("Try again");
@@ -41,7 +43,7 @@ public class InteractiveMenu {
         return string;
     }
 
-    public static void results() {
+    public static void results() throws FileNotFoundException {
         String string = choiceFileConsole();
         ManagerSymbols symbolCounter = new ManagerSymbols(string);
         System.out.println("Entropy: " + symbolCounter.getEntropy());

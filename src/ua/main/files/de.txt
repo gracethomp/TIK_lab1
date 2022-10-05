@@ -1,10 +1,23 @@
-Die ukrainische Küche mit ihren verschiedenen Geschmacksrichtungen und Kochtechniken ist ein wichtiger
-Bestandteil des kulturellen Erbes des Landes. Es spiegelt die Besonderheiten der Regionen des Landes und
-das kulinarische Erbe verschiedener ethnischer und nationaler Gemeinschaften der Ukraine wider.
+Java ist eine Programmiersprache und Computerplattform, die erstmals 1995 von Sun Microsystems veröffentlicht wurde. Die Technologie hat sich von einer bescheidenen Entwicklung zu einem Werkzeug entwickelt, das in der heutigen digitalen Welt eine bedeutende Rolle spielt und eine solide Plattform für viele Dienste und Anwendungen bietet. Auch innovative Produkte und digitale Services für die Zukunft werden auf Java basieren.
 
-Borshch (eine Rübensuppe) ist das berühmteste ukrainische Gericht. Jede ukrainische Familie hat ihr eigenes
-Borschtsch-Rezept. Das am weitesten verbreitete Rezept umfasst Kohl, Karotten, Zwiebeln, Kartoffeln, Tomaten
-und Fleisch, obwohl Borschtsch auch vegetarisch sein kann.
+Obwohl die meisten modernen Java-Anwendungen eine Java-Umgebung und -Anwendung kombinieren, gibt es immer noch viele Anwendungen und sogar einige Websites, die nur funktionieren, wenn eine Desktop-Version von Java auf dem Computer installiert ist.
 
-Neben den Restaurants und Cafés lohnt es sich, lokale Märkte für Obst, Gemüse, Kräutertees und hausgemachten
-Hüttenkäse zu besuchen.
+Ja, Java kann kostenlos für den persönlichen Gebrauch heruntergeladen werden.
+Java ist auch für die Entwicklung kostenlos: Entwickler finden alle Entwicklungskits und andere nützliche Tools auf der Webseite. Die neuesten Java-Updates enthalten wichtige Verbesserungen zur Verbesserung der Leistung, Stabilität und Sicherheit von Java-Anwendungen, die auf Ihrem Computer ausgeführt werden. Durch die Installation dieser Updates wird sichergestellt, dass Java-Anwendungen weiterhin mit der neuesten Version funktionieren. Als Ergebnis des Downloads von Java-Software von java.com erhalten Benutzer Java Runtime Environment (JRE) Version 8.
+
+Die JRE besteht aus der Java Virtual Machine (JVM), den Basisklassen der Java-Plattform und den Unterstützungsbibliotheken der Java-Plattform. JRE ist die Laufzeitumgebung für Java. Dies ist alles, was zum Ausführen von Java WebStart-Anwendungen über einen unterstützten Webbrowser erforderlich ist. Entwicklungstools sind jedoch nicht enthalten: Sie werden als Teil des Java Development Kit (JDK) bereitgestellt.
+Was ist Java-Plugin-Software?
+Die Java-Plug-in-Software ist eine Komponente der Java Runtime Environment (JRE). Die JRE ermöglicht die Ausführung einiger in der Programmiersprache Java geschriebener Anwendungen auf verschiedenen Browsern. Das Java Plugin ist kein eigenständiges Programm und kann nicht separat installiert werden.
+Ich bin auf die Begriffe "Java Virtual Machine" und JVM gestoßen. Ist das Java-Software?
+Die Java Virtual Machine ist nur ein Aspekt der Java-Software, die an der Ausführung einer Anwendung beteiligt ist. Die Java Virtual Machine ist als Teil der JRE in die herunterladbare Java-Software integriert; Es unterstützt die Ausführung von Java-Anwendungen.
+Terminologie. Java ist ein allgemeiner Begriff, der verwendet wird, um sich auf die Software und ihre Komponenten zu beziehen, einschließlich der Komponenten Java Runtime Environment (JRE) und Java Virtual Machine (JVM) sowie des Plugins. Wenn die Fehlermeldungen die Begriffe JRE, JVM und Plug-in enthalten, speichern wir diese.
+
+Versionen: Die Version bezieht sich auf die Java-Familie und die Update-Nummer. Beispiele: Auf der Website oder in Windows-Programmen wird die Version als Java 8 Update 25 aufgeführt. Frühere Versionen können auch die Bezeichnung 1.7.0_65 tragen, was für Java 7 (Update 65) steht.
+Das Hilfethema enthält Informationen zu den folgenden Java-Versionen. Lambda-Ausdrücke waren ab Java 8 eine leistungsstarke Ergänzung der Java-Sprache. Dies ist eine Reihe von Tutorials, die darauf abzielen, das Konzept von Lambdas einzuführen und gleichzeitig zu lehren, wie man sie in der Praxis verwendet, während Sie durch jedes Tutorial fortschreiten.
+
+Die Tutorials in dieser Reihe sind unten aufgeführt. Wir empfehlen, mit dem ersten zu beginnen und sich durchzuarbeiten, aber Sie können beginnen, wo immer Sie möchten! Im Jahr 2014 wurde mit Java SE 8 das Konzept der Lambda-Ausdrücke eingeführt. Wenn Sie sich an die Tage vor der Veröffentlichung von Java SE 8 erinnern, dann erinnern Sie sich wahrscheinlich an das Konzept der anonymen Klassen. Und vielleicht haben Sie gehört, dass Lambda-Ausdrücke eine andere, einfachere Art sind, Instanzen von anonymen Klassen zu schreiben, in bestimmten Fällen.
+
+Wenn Sie sich nicht an diese Zeit erinnern, dann haben Sie vielleicht von anonymen Klassen gehört oder gelesen und haben wahrscheinlich Angst vor dieser obskuren Syntax.
+
+Nun, die gute Nachricht ist: Sie müssen keine anonymen Klassen durchlaufen, um zu verstehen, wie man einen Lambda-Ausdruck schreibt. Darüber hinaus benötigen Sie dank der Hinzufügung von Lambdas zur Java-Sprache in vielen Fällen keine anonymen Klassen mehr.
+Alles hat einen Typ in der Java-Sprache, und dieser Typ ist zur Kompilierzeit bekannt. So ist es immer möglich, den Typ eines Lambda-Ausdrucks zu finden. Dies kann der Typ einer Variablen, eines Felds, eines Methodenparameters oder der zurückgegebene Typ einer Methode sein.
